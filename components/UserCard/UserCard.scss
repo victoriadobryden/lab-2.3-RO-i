@@ -1,0 +1,36 @@
+.user-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+
+  width: 11.5em;
+  margin: .25em;
+  padding: 1em;
+
+  color: white;
+  font-family: 'Helvetica', 'Arial', sans-serif;
+
+  border-radius: 2em;
+  background-color: rgba($color: #000000, $alpha: 0.3);
+  backdrop-filter: blur(15px);
+
+  &:hover {
+    background-color: rgba($color: #000000, $alpha: 0.5);
+  }
+
+  img {
+    width: 100%;
+    border-radius: 100%;
+  }
+
+  h6 {
+    margin: 1em 0 1em;
+    font-size: 1.25em;
+    font-weight: bold;
+  }
+
+  &__btn {
+    width: 100%;
+  }
+}

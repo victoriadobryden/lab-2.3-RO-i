@@ -1,0 +1,23 @@
+.user-account {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  width: 100%;
+  padding: 1em 0;
+
+  @media (min-width: 384px) {
+    width: 384px;
+  }
+
+  .user-card {
+    width: 100%;
+  }
+
+  .user-info {
+    margin-top: .5em;
+  }
+
+  .button {
+    margin-top: .5em;
+  }
+}

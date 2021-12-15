@@ -1,0 +1,19 @@
+.user-list {
+  display: flex;
+  justify-content: start;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 192px;
+
+  @media (min-width: 384px) {
+    width: 384px;
+  }
+
+  @media (min-width: 576px) {
+    width: 576px;
+  }
+
+  @media (min-width: 768px) {
+    width: 768px;
+  }
+}

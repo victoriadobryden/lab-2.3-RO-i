@@ -1,0 +1,12 @@
+.sign-in-form {
+  @media (max-width: 768px) {
+    width: 100%;
+  }
+
+  width: 400px;
+  padding: 1.6em;
+  margin: .8em;
+
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 1.6em;
+}
